@@ -45,3 +45,6 @@ def resume(request,id):
 def list(request):
     profiles = Profile.objects.all()
     return render(request, 'pdf/list.html',{'profiles':profiles})
+
+def home(request):
+    return render(request, 'pdf/home.html')

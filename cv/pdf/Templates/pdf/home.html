@@ -1,0 +1,48 @@
+{% extends 'pdf/index.html' %}
+{% block content %}
+
+<br>
+    <div class='container'>
+        <div class="mt-4 p-5 bg-dark text-white rounded">
+            <h1>Welcome to my  CV generator portfolio project</h1>
+            <p>This is a Django 4.1.4 project.</p>
+
+            <p>This project is a simple cv generator website project.</p>
+            
+            <p> On this page, the user can fill up the form in the 'form' tab. 
+                The data is saved to the database after filling up the form and clicking 'Submit'. 
+                The 'list' tab displays the names of all users available in the database. 
+                Next to the names there is a button 'Download CV' responsible for downloading the pdf CV file.   
+                Each user has it's own downloading button.
+                Products can only be added through the admin directly in the database </p>
+            
+            <p>Front-end technologies used in the project:</p>
+            <ul>
+                <li>HTML</li>
+            </ul>
+
+            <p>Back-end technologies used in the project:</p>
+            <ul>
+                <li>Python</li>
+            </ul>
+            
+            <p>The main functions include:</p>
+        
+            <ul>
+                <li>The 'Home' page</li> 
+                <li>Page with list of all the users</li>
+                <li>Downloading pdf files with pdfkit</li> 
+                <li>Separate html file for generating CV pdf files</li>
+                <li>Saving all the user data to the database</li>
+                <li>functional navbar</li>
+                <li>CV data form</li>
+            </ul>
+
+            <p>Bootstrap 5 was used to style the website</p> 
+
+            <p>For the generator to work you need to install wkhtmltopdf and change this path in views.py</p>
+            <p>config = pdfkit.configuration(wkhtmltopdf=r'C:/Users/piotr/OneDrive/Pulpit/Projects/wkhtmltopdf/bin/wkhtmltopdf.exe')</p>  
+        </div>
+    </div>
+
+{% endblock  %}
