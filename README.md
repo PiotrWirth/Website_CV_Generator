@@ -1,3 +1,4 @@
+# CV Generator Project
 Welcome to my CV generator portfolio project
 This is a Django 4.1.4 project.
 
