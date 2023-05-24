@@ -33,6 +33,11 @@ Main functions
 
 Bootstrap 5 was used to style the website
 
+![CV_1](https://github.com/PiotrWirth/Website_CV_Generator/assets/26605945/1e7f1134-be11-44e6-91aa-ea1899e52726)
+![CV_2](https://github.com/PiotrWirth/Website_CV_Generator/assets/26605945/7f985f0b-475f-4834-acd6-1cfc6f772ac3)
+![CV_3](https://github.com/PiotrWirth/Website_CV_Generator/assets/26605945/a6f64272-d29f-463b-b63e-ddefb2a365df)
+
+
 For the generator to work you need to install wkhtmltopdf and change this path in views.py
 
 config = pdfkit.configuration(wkhtmltopdf=r'C:/Users/piotr/OneDrive/Pulpit/Projects/wkhtmltopdf/bin/wkhtmltopdf.exe')
